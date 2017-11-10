@@ -349,3 +349,14 @@ LogInit: Object subsystem initialized
 [2017.11.10-21.42.29:141][954]LogSavePackage: Moving '../../../../../../Users/dueli/Documents/Unreal Projects/FlyingAria/Saved/Minimal_Default8E6830DD4F5B7CB2213BB6B3798B8D9C.tmp' to '../../../../../../Users/dueli/Documents/Unreal Projects/FlyingAria/Content/StarterContent/Maps/Minimal_Default.umap'
 [2017.11.10-21.42.29:148][954]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/dueli/Documents/Unreal Projects/FlyingAria/Content/StarterContent/Maps/Minimal_Default.umap
 [2017.11.10-21.42.29:242][954]LogFileHelpers: Saving map 'Minimal_Default' took 0.469
+[2017.11.10-21.43.52:864][898]LogSavePackage: Save=11.09ms
+[2017.11.10-21.43.52:864][898]LogSavePackage: Moving '../../../../../../Users/dueli/Documents/Unreal Projects/FlyingAria/Saved/Jared7ACA312F469F6A69850C63B4BC418698.tmp' to '../../../../../../Users/dueli/Documents/Unreal Projects/FlyingAria/Content/StarterContent/Maps/Jared.umap'
+[2017.11.10-21.43.52:867][898]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/dueli/Documents/Unreal Projects/FlyingAria/Content/StarterContent/Maps/Jared.umap
+[2017.11.10-21.43.57:936][327]LogSavePackage: Save=212.89ms
+[2017.11.10-21.43.57:936][327]LogSavePackage: Moving '../../../../../../Users/dueli/Documents/Unreal Projects/FlyingAria/Saved/Minimal_Default6186A3974AF4CD5514B1C1942B8696FC.tmp' to '../../../../../../Users/dueli/Documents/Unreal Projects/FlyingAria/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.11.10-21.43.57:944][327]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/dueli/Documents/Unreal Projects/FlyingAria/Content/StarterContent/Maps/Minimal_Default.umap
+[2017.11.10-21.43.58:037][327]LogFileHelpers: Saving map 'Minimal_Default' took 0.430
+[2017.11.10-21.43.58:171][327]LogSavePackage: Save=9.97ms
+[2017.11.10-21.43.58:171][327]LogSavePackage: Moving '../../../../../../Users/dueli/Documents/Unreal Projects/FlyingAria/Saved/Jared0FB12B9A4392A727A81127BACE1BD416.tmp' to '../../../../../../Users/dueli/Documents/Unreal Projects/FlyingAria/Content/StarterContent/Maps/Jared.umap'
+[2017.11.10-21.43.58:177][327]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/dueli/Documents/Unreal Projects/FlyingAria/Content/StarterContent/Maps/Jared.umap
+[2017.11.10-21.43.58:180][327]LogFileHelpers: Saving map 'Jared' took 0.137
