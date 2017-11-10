@@ -1,0 +1,812 @@
+﻿Log file open, 10/22/17 15:59:00
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ThirdPersonProject
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1044500673) SRandInit(-1044500673).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.235087
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.22-19.59.01:611][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.22-19.59.01:611][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.22-19.59.01:715][  0]LogInit: Computer: LAPTOP-2SK5NFL4
+[2017.10.22-19.59.01:715][  0]LogInit: User: dueli
+[2017.10.22-19.59.01:715][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.22-19.59.01:715][  0]LogInit: High frequency timer resolution =2.531252 MHz
+[2017.10.22-19.59.01:716][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2017.10.22-19.59.01:716][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.22-19.59.01:716][  0]LogMemory: Process Physical Memory: 278.63 MB used, 278.63 MB peak
+[2017.10.22-19.59.01:716][  0]LogMemory: Process Virtual Memory: 274.34 MB used, 274.34 MB peak
+[2017.10.22-19.59.01:716][  0]LogMemory: Physical Memory: 5116.29 MB used,  2903.49 MB free, 8019.78 MB total
+[2017.10.22-19.59.01:716][  0]LogMemory: Virtual Memory: 669.05 MB used,  2903.49 MB free, 134217728.00 MB total
+[2017.10.22-19.59.02:906][  0]LogInit: Using OS detected language (en-US).
+[2017.10.22-19.59.02:906][  0]LogInit: Using OS detected locale (en-US).
+[2017.10.22-19.59.03:100][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.22-19.59.12:622][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.22-19.59.12:715][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.10.22-19.59.12:715][  0]LogD3D11RHI:       2019/0/4009 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.22-19.59.12:723][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.10.22-19.59.12:723][  0]LogD3D11RHI:       128/0/4009 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.10.22-19.59.12:724][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.22-19.59.12:724][  0]LogD3D11RHI:       0/0/4009 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.22-19.59.12:724][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.22-19.59.12:734][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.22-19.59.12:734][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.10.22-19.59.12:759][  0]LogWindows: EnumDisplayDevices:
+[2017.10.22-19.59.12:759][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.10.22-19.59.12:760][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.10.22-19.59.12:760][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.10.22-19.59.12:761][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.10.22-19.59.12:761][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.10.22-19.59.12:761][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.10.22-19.59.12:761][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.10.22-19.59.12:761][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.22-19.59.12:811][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.22-19.59.12:822][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.10.22-19.59.12:823][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Intermediate/Shaders/WorkingDirectory/17460/).
+[2017.10.22-19.59.12:823][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/dueli/AppData/Local/Temp/UnrealShaderWorkingDir/327CE731403F0AFF911F61AD9616A80A/'.
+[2017.10.22-19.59.12:823][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.22-19.59.22:505][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.22-19.59.22:591][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.22-19.59.22:662][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.22-19.59.22:743][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.22-19.59.22:837][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.22-19.59.22:994][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.22-19.59.23:151][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.22-19.59.23:218][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.22-19.59.23:297][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.22-19.59.23:413][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.22-19.59.23:516][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.22-19.59.23:641][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.22-19.59.23:722][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.22-19.59.23:794][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.22-19.59.23:869][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.22-19.59.24:046][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.22-19.59.24:046][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.22-19.59.24:104][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.22-19.59.24:255][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.22-19.59.24:317][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.22-19.59.24:401][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.22-19.59.24:467][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.22-19.59.24:532][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.22-19.59.24:603][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.22-19.59.24:603][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.22-19.59.26:257][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.22-19.59.27:464][  0]LogDerivedDataCache: Loaded boot cache 1.21s 93MB C:/Users/dueli/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.22-19.59.27:464][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/dueli/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.22-19.59.27:464][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.22-19.59.27:464][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.22-19.59.27:464][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.22-19.59.27:465][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.22-19.59.27:545][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.22-19.59.27:559][  0]LogDerivedDataCache: Using Local data cache path C:/Users/dueli/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.22-19.59.27:571][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.22-19.59.27:571][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.22-19.59.27:719][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.22-19.59.27:719][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.22-19.59.32:989][  0]LogAssetRegistry: FAssetRegistry took 0.0650 seconds to start up
+[2017.10.22-19.59.33:800][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.22-19.59.35:174][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.22-19.59.36:970][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.22-19.59.37:121][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.22-19.59.37:121][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.22-19.59.37:121][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.22-19.59.37:121][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.22-19.59.37:121][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.22-19.59.38:719][  0]LogNetVersion: ThirdPersonProject , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1977349515)
+[2017.10.22-19.59.39:473][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.122941 seconds
+[2017.10.22-19.59.39:479][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.22-19.59.39:479][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.10.22-19.59.39:479][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.22-19.59.39:620][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.22-20.00.14:317][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.22-20.00.14:376][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.22-20.00.16:419][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.22-20.00.17:353][  0]SourceControl: Source control is disabled
+[2017.10.22-20.00.17:353][  0]SourceControl: Source control is disabled
+[2017.10.22-20.00.17:430][  0]SourceControl: Source control is disabled
+[2017.10.22-20.00.17:544][  0]SourceControl: Source control is disabled
+[2017.10.22-20.00.18:895][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.22-20.00.19:316][  0]LogOcInput: OculusInput pre-init called
+[2017.10.22-20.00.19:832][  0]LogEngine: Initializing Engine...
+[2017.10.22-20.00.19:833][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.22-20.00.21:015][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.22-20.00.21:015][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.22-20.00.21:239][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.22-20.00.21:258][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.22-20.00.21:306][  0]LogInit: FAudioDevice initialized.
+[2017.10.22-20.00.21:549][  0]LogDerivedDataCache: Saved boot cache 0.24s 93MB C:/Users/dueli/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.22-20.00.21:599][  0]LogInit: Texture streaming: Enabled
+[2017.10.22-20.00.21:810][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.22-20.00.22:543][  0]LogInit: Transaction tracking system initialized
+[2017.10.22-20.00.23:164][  0]BlueprintLog: New page: Editor Load
+[2017.10.22-20.00.24:998][  0]LocalizationService: Localization service is disabled
+[2017.10.22-20.00.26:682][  0]LogConsoleResponse: Display: 
+[2017.10.22-20.00.30:198][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Content/' took 0.24s
+[2017.10.22-20.00.30:198][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.22-20.00.30:198][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.22-20.00.30:198][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.22-20.00.35:990][  0]SourceControl: Source control is disabled
+[2017.10.22-20.00.35:990][  0]Cmd: MAP LOAD FILE="../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.22-20.00.36:115][  0]LightingResults: New page: Lighting Build
+[2017.10.22-20.00.36:192][  0]MapCheck: New page: Map Check
+[2017.10.22-20.00.36:192][  0]LightingResults: New page: Lighting Build
+[2017.10.22-20.00.44:851][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.10.22-20.00.47:072][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.22-20.00.47:266][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.22-20.00.47:388][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 121.501ms to complete.
+[2017.10.22-20.00.47:388][  0]LogFileHelpers: Loading map 'Minimal_Default' took 11.398
+[2017.10.22-20.00.53:123][  0]LogCollectionManager: Loaded 0 collections in 0.002270 seconds
+[2017.10.22-20.00.54:710][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Collections/' took 0.01s
+[2017.10.22-20.00.54:710][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Content/Developers/dueli/Collections/' took 0.01s
+[2017.10.22-20.00.54:710][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Content/Collections/' took 0.01s
+[2017.10.22-20.00.54:710][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.22-20.00.54:863][  0]LogContentBrowser: Native class hierarchy populated in 0.1385 seconds. Added 2386 classes and 500 folders.
+[2017.10.22-20.00.55:463][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.10.22-20.01.01:911][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0018 seconds. Added 0 classes and 0 folders.
+[2017.10.22-20.01.02:281][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0025 seconds. Added 1 classes and 2 folders.
+[2017.10.22-20.01.05:714][  0]LogSlate: Took 0.086402 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.22-20.01.05:826][  0]LogSlate: Took 0.039046 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.22-20.01.06:289][  0]LogSlate: Took 0.038047 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.22-20.01.09:000][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.10.22-20.01.18:956][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.10.22-20.01.18:956][  0]LogLoad: (Engine Initialization) Total time: 150.94 seconds
+[2017.10.22-20.01.18:956][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.22-20.01.18:956][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.22-20.01.18:956][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.22-20.01.19:684][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.22-20.01.21:818][  1]LogSlate: Took 0.208242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.22-20.01.23:148][  2]LogSlate: Took 0.000802 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.22-20.01.25:014][  6]LogAssetRegistry: Asset discovery search completed in 112.0471 seconds
+[2017.10.22-20.01.25:018][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.22-20.01.25:018][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000095 seconds (updated 0 objects)
+[2017.10.22-21.50.14:681][671]Cmd: SELECT NONE
+[2017.10.22-21.50.26:881][954]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ThirdPersonProject
+[2017.10.22-21.50.26:881][954]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.22-21.50.26:881][954]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.10.22-21.50.26:881][954]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.22-21.50.27:015][955]LogTemp: BranchPath = LAPTOP-2SK5NFL4/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = LAPTOP-2SK5NFL4/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.10.22-21.50.27:577][956]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\dueli\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.10.22-21.55.40:729][533]LogSlate: Took 0.000256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.22-21.57.46:761][719]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.22-21.57.47:318][719]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 113 classes and 0 folders.
+[2017.10.22-21.57.50:257][719]LogSlate: Took 0.023780 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.22-21.57.51:202][720]LogSlate: Took 0.019728 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.22-22.00.36:040][541]LogSavePackage: Save=409.82ms
+[2017.10.22-22.00.36:040][541]LogSavePackage: Moving '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Minimal_Default_Auto17864599E44CA095B15E47A86E4E3D153.tmp' to '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2017.10.22-22.00.36:046][541]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap
+[2017.10.22-22.00.36:095][541]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.670
+[2017.10.22-22.00.36:095][541]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.670
+[2017.10.22-22.00.36:142][541]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/CharacterBP] ([1] browsable assets)...
+[2017.10.22-22.00.36:239][541]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Character/CharacterBP.CharacterBP]
+[2017.10.22-22.00.36:239][541]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/CharacterBP]
+[2017.10.22-22.00.36:494][541]LogSavePackage: Save=216.43ms
+[2017.10.22-22.00.36:494][541]LogSavePackage: Moving '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/CharacterBP_Auto1770718B44CE9497E59A5DDB9078D11EC.tmp' to '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Autosaves/Game/Character/CharacterBP_Auto1.uasset'
+[2017.10.22-22.00.36:511][541]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Autosaves/Game/Character/CharacterBP_Auto1.uasset
+[2017.10.22-22.00.36:511][541]LogFileHelpers: Auto-saving content packages took 0.380
+[2017.10.22-22.12.14:755][629]BlueprintLog: New page: Compile CharacterBP
+[2017.10.22-22.16.01:544][991]BlueprintLog: New page: Compile CharacterBP
+[2017.10.22-22.17.32:647][393]BlueprintLog: New page: Compile CharacterBP
+[2017.10.22-22.17.59:261][575]LogSavePackage: Save=108.68ms
+[2017.10.22-22.17.59:261][575]LogSavePackage: Moving '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Minimal_Default_Auto2B2FD820D4D43097858FCD0BBDCC65C67.tmp' to '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap'
+[2017.10.22-22.17.59:264][575]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap
+[2017.10.22-22.17.59:269][575]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.152
+[2017.10.22-22.17.59:269][575]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.152
+[2017.10.22-22.17.59:273][575]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/CharacterBP] ([1] browsable assets)...
+[2017.10.22-22.17.59:321][575]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Character/CharacterBP.CharacterBP]
+[2017.10.22-22.17.59:321][575]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/CharacterBP]
+[2017.10.22-22.17.59:444][575]LogSavePackage: Save=103.41ms
+[2017.10.22-22.17.59:444][575]LogSavePackage: Moving '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/CharacterBP_Auto242EE42744610F3078926198CEF8CCD08.tmp' to '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Autosaves/Game/Character/CharacterBP_Auto2.uasset'
+[2017.10.22-22.17.59:446][575]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Autosaves/Game/Character/CharacterBP_Auto2.uasset
+[2017.10.22-22.17.59:447][575]LogFileHelpers: Auto-saving content packages took 0.176
+[2017.10.22-23.29.19:526][166]LogHttp: Warning: 0000023418967880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.22-23.29.19:527][166]LogHttp: Warning: 0000023418967880: libcurl info message cache 0 (Connection 61 seems to be dead!)
+[2017.10.22-23.29.19:527][166]LogHttp: Warning: 0000023418967880: libcurl info message cache 1 (Closing connection 61)
+[2017.10.22-23.29.19:527][166]LogHttp: Warning: 0000023418967880: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.10.22-23.29.19:528][166]LogHttp: Warning: 0000023418967880: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.22-23.29.19:528][166]LogHttp: Warning: 0000023418967880: libcurl info message cache 4 (Closing connection 62)
+[2017.10.22-23.31.20:185][528]LogHttp: Warning: 0000023418965900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.22-23.31.20:186][528]LogHttp: Warning: 0000023418965900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.22-23.31.20:186][528]LogHttp: Warning: 0000023418965900: libcurl info message cache 1 (Closing connection 63)
+[2017.10.22-23.33.20:562][889]LogHttp: Warning: 0000023418964580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.22-23.33.20:562][889]LogHttp: Warning: 0000023418964580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.22-23.33.20:562][889]LogHttp: Warning: 0000023418964580: libcurl info message cache 1 (Closing connection 64)
+[2017.10.22-23.35.20:896][250]LogHttp: Warning: 0000023418966C80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.22-23.35.20:897][250]LogHttp: Warning: 0000023418966C80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.22-23.35.20:897][250]LogHttp: Warning: 0000023418966C80: libcurl info message cache 1 (Closing connection 65)
+[2017.10.22-23.37.21:561][612]LogHttp: Warning: 0000023418965C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.22-23.37.21:561][612]LogHttp: Warning: 0000023418965C00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.22-23.37.21:561][612]LogHttp: Warning: 0000023418965C00: libcurl info message cache 1 (Closing connection 66)
+[2017.10.22-23.39.21:895][973]LogHttp: Warning: 0000023418967880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.22-23.39.21:895][973]LogHttp: Warning: 0000023418967880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.22-23.39.21:895][973]LogHttp: Warning: 0000023418967880: libcurl info message cache 1 (Closing connection 67)
+[2017.10.22-23.41.22:564][335]LogHttp: Warning: 0000023418964100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.22-23.41.22:564][335]LogHttp: Warning: 0000023418964100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.22-23.41.22:564][335]LogHttp: Warning: 0000023418964100: libcurl info message cache 1 (Closing connection 68)
+[2017.10.22-23.43.23:233][697]LogHttp: Warning: 0000023418966E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.22-23.43.23:233][697]LogHttp: Warning: 0000023418966E00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.22-23.43.23:233][697]LogHttp: Warning: 0000023418966E00: libcurl info message cache 1 (Closing connection 69)
+[2017.10.22-23.45.23:890][ 59]LogHttp: Warning: 0000023418967880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.22-23.45.23:890][ 59]LogHttp: Warning: 0000023418967880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.22-23.45.23:890][ 59]LogHttp: Warning: 0000023418967880: libcurl info message cache 1 (Closing connection 70)
+[2017.10.22-23.47.24:232][420]LogHttp: Warning: 0000023418964D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.22-23.47.24:232][420]LogHttp: Warning: 0000023418964D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.22-23.47.24:232][420]LogHttp: Warning: 0000023418964D00: libcurl info message cache 1 (Closing connection 71)
+[2017.10.22-23.49.24:898][782]LogHttp: Warning: 0000023418966C80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.22-23.49.24:898][782]LogHttp: Warning: 0000023418966C80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.22-23.49.24:898][782]LogHttp: Warning: 0000023418966C80: libcurl info message cache 1 (Closing connection 72)
+[2017.10.22-23.51.25:565][144]LogHttp: Warning: 0000023418964D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.22-23.51.25:565][144]LogHttp: Warning: 0000023418964D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.22-23.51.25:565][144]LogHttp: Warning: 0000023418964D00: libcurl info message cache 1 (Closing connection 73)
+[2017.10.22-23.53.26:232][506]LogHttp: Warning: 0000023418964280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.22-23.53.26:233][506]LogHttp: Warning: 0000023418964280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.22-23.53.26:233][506]LogHttp: Warning: 0000023418964280: libcurl info message cache 1 (Closing connection 74)
+[2017.10.22-23.55.26:571][867]LogHttp: Warning: 0000023418966E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.22-23.55.26:571][867]LogHttp: Warning: 0000023418966E00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.22-23.55.26:571][867]LogHttp: Warning: 0000023418966E00: libcurl info message cache 1 (Closing connection 75)
+[2017.10.22-23.57.27:233][229]LogHttp: Warning: 0000023418965780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.22-23.57.27:233][229]LogHttp: Warning: 0000023418965780: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.22-23.57.27:233][229]LogHttp: Warning: 0000023418965780: libcurl info message cache 1 (Closing connection 76)
+[2017.10.22-23.59.27:567][590]LogHttp: Warning: 0000023418964580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.22-23.59.27:567][590]LogHttp: Warning: 0000023418964580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.22-23.59.27:567][590]LogHttp: Warning: 0000023418964580: libcurl info message cache 1 (Closing connection 77)
+[2017.10.23-00.01.28:234][952]LogHttp: Warning: 0000023418965780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-00.01.28:234][952]LogHttp: Warning: 0000023418965780: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-00.01.28:235][952]LogHttp: Warning: 0000023418965780: libcurl info message cache 1 (Closing connection 78)
+[2017.10.23-00.03.28:901][314]LogHttp: Warning: 0000023418965C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-00.03.28:902][314]LogHttp: Warning: 0000023418965C00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-00.03.28:902][314]LogHttp: Warning: 0000023418965C00: libcurl info message cache 1 (Closing connection 79)
+[2017.10.23-00.05.29:570][676]LogHttp: Warning: 0000023418967880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-00.05.29:570][676]LogHttp: Warning: 0000023418967880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-00.05.29:570][676]LogHttp: Warning: 0000023418967880: libcurl info message cache 1 (Closing connection 80)
+[2017.10.23-00.07.30:239][ 38]LogHttp: Warning: 0000023418965780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-00.07.30:239][ 38]LogHttp: Warning: 0000023418965780: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-00.07.30:239][ 38]LogHttp: Warning: 0000023418965780: libcurl info message cache 1 (Closing connection 81)
+[2017.10.23-00.09.30:572][399]LogHttp: Warning: 0000023418965D80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-00.09.30:572][399]LogHttp: Warning: 0000023418965D80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-00.09.30:573][399]LogHttp: Warning: 0000023418965D80: libcurl info message cache 1 (Closing connection 82)
+[2017.10.23-00.11.31:237][761]LogHttp: Warning: 0000023418964D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-00.11.31:237][761]LogHttp: Warning: 0000023418964D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-00.11.31:237][761]LogHttp: Warning: 0000023418964D00: libcurl info message cache 1 (Closing connection 83)
+[2017.10.23-00.13.31:572][122]LogHttp: Warning: 0000023418966F80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-00.13.31:572][122]LogHttp: Warning: 0000023418966F80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-00.13.31:572][122]LogHttp: Warning: 0000023418966F80: libcurl info message cache 1 (Closing connection 84)
+[2017.10.23-00.15.31:904][483]LogHttp: Warning: 0000023418965780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-00.15.31:904][483]LogHttp: Warning: 0000023418965780: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-00.15.31:904][483]LogHttp: Warning: 0000023418965780: libcurl info message cache 1 (Closing connection 85)
+[2017.10.23-00.17.32:574][845]LogHttp: Warning: 0000023418967100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-00.17.32:574][845]LogHttp: Warning: 0000023418967100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-00.17.32:574][845]LogHttp: Warning: 0000023418967100: libcurl info message cache 1 (Closing connection 86)
+[2017.10.23-00.19.33:233][207]LogHttp: Warning: 0000023418964580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-00.19.33:233][207]LogHttp: Warning: 0000023418964580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-00.19.33:234][207]LogHttp: Warning: 0000023418964580: libcurl info message cache 1 (Closing connection 87)
+[2017.10.23-00.21.33:572][568]LogHttp: Warning: 0000023418967100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-00.21.33:572][568]LogHttp: Warning: 0000023418967100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-00.21.33:572][568]LogHttp: Warning: 0000023418967100: libcurl info message cache 1 (Closing connection 88)
+[2017.10.23-00.23.33:903][929]LogHttp: Warning: 0000023418966F80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-00.23.33:903][929]LogHttp: Warning: 0000023418966F80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-00.23.33:903][929]LogHttp: Warning: 0000023418966F80: libcurl info message cache 1 (Closing connection 89)
+[2017.10.23-00.25.34:236][290]LogHttp: Warning: 0000023418964100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-00.25.34:236][290]LogHttp: Warning: 0000023418964100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-00.25.34:236][290]LogHttp: Warning: 0000023418964100: libcurl info message cache 1 (Closing connection 90)
+[2017.10.23-00.27.34:575][651]LogHttp: Warning: 0000023418966E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-00.27.34:575][651]LogHttp: Warning: 0000023418966E00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-00.27.34:575][651]LogHttp: Warning: 0000023418966E00: libcurl info message cache 1 (Closing connection 91)
+[2017.10.23-00.29.35:235][ 13]LogHttp: Warning: 0000023418966F80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-00.29.35:235][ 13]LogHttp: Warning: 0000023418966F80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-00.29.35:235][ 13]LogHttp: Warning: 0000023418966F80: libcurl info message cache 1 (Closing connection 92)
+[2017.10.23-00.31.46:583][407]LogHttp: Warning: 0000023418965900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-00.31.46:583][407]LogHttp: Warning: 0000023418965900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-00.31.46:583][407]LogHttp: Warning: 0000023418965900: libcurl info message cache 1 (Closing connection 93)
+[2017.10.23-00.33.47:003][768]LogHttp: Warning: 0000023418965A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-00.33.47:004][768]LogHttp: Warning: 0000023418965A80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-00.33.47:004][768]LogHttp: Warning: 0000023418965A80: libcurl info message cache 1 (Closing connection 94)
+[2017.10.23-00.35.47:672][130]LogHttp: Warning: 0000023418966E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-00.35.47:672][130]LogHttp: Warning: 0000023418966E00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-00.35.47:672][130]LogHttp: Warning: 0000023418966E00: libcurl info message cache 1 (Closing connection 95)
+[2017.10.23-00.37.48:004][491]LogHttp: Warning: 0000023418966F80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-00.37.48:004][491]LogHttp: Warning: 0000023418966F80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-00.37.48:005][491]LogHttp: Warning: 0000023418966F80: libcurl info message cache 1 (Closing connection 96)
+[2017.10.23-00.39.48:670][853]LogHttp: Warning: 0000023418965900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-00.39.48:670][853]LogHttp: Warning: 0000023418965900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-00.39.48:670][853]LogHttp: Warning: 0000023418965900: libcurl info message cache 1 (Closing connection 97)
+[2017.10.23-00.41.49:004][214]LogHttp: Warning: 0000023418967B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-00.41.49:004][214]LogHttp: Warning: 0000023418967B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-00.41.49:004][214]LogHttp: Warning: 0000023418967B80: libcurl info message cache 1 (Closing connection 98)
+[2017.10.23-00.43.49:672][576]LogHttp: Warning: 0000023418965900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-00.43.49:673][576]LogHttp: Warning: 0000023418965900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-00.43.49:673][576]LogHttp: Warning: 0000023418965900: libcurl info message cache 1 (Closing connection 99)
+[2017.10.23-00.45.50:341][938]LogHttp: Warning: 0000023418967880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-00.45.50:341][938]LogHttp: Warning: 0000023418967880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-00.45.50:342][938]LogHttp: Warning: 0000023418967880: libcurl info message cache 1 (Closing connection 100)
+[2017.10.23-00.47.51:004][300]LogHttp: Warning: 0000023418966C80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-00.47.51:005][300]LogHttp: Warning: 0000023418966C80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-00.47.51:005][300]LogHttp: Warning: 0000023418966C80: libcurl info message cache 1 (Closing connection 101)
+[2017.10.23-00.49.51:675][662]LogHttp: Warning: 0000023418965900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-00.49.51:675][662]LogHttp: Warning: 0000023418965900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-00.49.51:675][662]LogHttp: Warning: 0000023418965900: libcurl info message cache 1 (Closing connection 102)
+[2017.10.23-00.51.52:007][ 23]LogHttp: Warning: 0000023418967880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-00.51.52:008][ 23]LogHttp: Warning: 0000023418967880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-00.51.52:008][ 23]LogHttp: Warning: 0000023418967880: libcurl info message cache 1 (Closing connection 103)
+[2017.10.23-00.53.52:675][385]LogHttp: Warning: 0000023418966E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-00.53.52:675][385]LogHttp: Warning: 0000023418966E00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-00.53.52:675][385]LogHttp: Warning: 0000023418966E00: libcurl info message cache 1 (Closing connection 104)
+[2017.10.23-00.55.53:339][747]LogHttp: Warning: 0000023418965A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-00.55.53:339][747]LogHttp: Warning: 0000023418965A80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-00.55.53:339][747]LogHttp: Warning: 0000023418965A80: libcurl info message cache 1 (Closing connection 105)
+[2017.10.23-00.57.53:676][108]LogHttp: Warning: 0000023418966C80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-00.57.53:676][108]LogHttp: Warning: 0000023418966C80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-00.57.53:676][108]LogHttp: Warning: 0000023418966C80: libcurl info message cache 1 (Closing connection 106)
+[2017.10.23-00.59.54:010][469]LogHttp: Warning: 0000023418967B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-00.59.54:010][469]LogHttp: Warning: 0000023418967B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-00.59.54:010][469]LogHttp: Warning: 0000023418967B80: libcurl info message cache 1 (Closing connection 107)
+[2017.10.23-01.01.54:678][831]LogHttp: Warning: 0000023418966C80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-01.01.54:679][831]LogHttp: Warning: 0000023418966C80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-01.01.54:679][831]LogHttp: Warning: 0000023418966C80: libcurl info message cache 1 (Closing connection 108)
+[2017.10.23-01.03.55:346][193]LogHttp: Warning: 0000023418965D80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-01.03.55:346][193]LogHttp: Warning: 0000023418965D80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-01.03.55:347][193]LogHttp: Warning: 0000023418965D80: libcurl info message cache 1 (Closing connection 109)
+[2017.10.23-01.05.55:673][554]LogHttp: Warning: 0000023418967E80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-01.05.55:673][554]LogHttp: Warning: 0000023418967E80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-01.05.55:673][554]LogHttp: Warning: 0000023418967E80: libcurl info message cache 1 (Closing connection 110)
+[2017.10.23-01.07.56:015][915]LogHttp: Warning: 0000023418967880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-01.07.56:015][915]LogHttp: Warning: 0000023418967880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-01.07.56:015][915]LogHttp: Warning: 0000023418967880: libcurl info message cache 1 (Closing connection 111)
+[2017.10.23-01.09.56:679][277]LogHttp: Warning: 0000023418967100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-01.09.56:680][277]LogHttp: Warning: 0000023418967100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-01.09.56:680][277]LogHttp: Warning: 0000023418967100: libcurl info message cache 1 (Closing connection 112)
+[2017.10.23-01.11.57:006][638]LogHttp: Warning: 0000023418967880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-01.11.57:006][638]LogHttp: Warning: 0000023418967880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-01.11.57:006][638]LogHttp: Warning: 0000023418967880: libcurl info message cache 1 (Closing connection 113)
+[2017.10.23-01.13.57:346][999]LogHttp: Warning: 0000023418965780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-01.13.57:347][999]LogHttp: Warning: 0000023418965780: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-01.13.57:347][999]LogHttp: Warning: 0000023418965780: libcurl info message cache 1 (Closing connection 114)
+[2017.10.23-01.15.58:014][361]LogHttp: Warning: 0000023418965D80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-01.15.58:014][361]LogHttp: Warning: 0000023418965D80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-01.15.58:014][361]LogHttp: Warning: 0000023418965D80: libcurl info message cache 1 (Closing connection 115)
+[2017.10.23-01.17.58:349][722]LogHttp: Warning: 0000023418967B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-01.17.58:349][722]LogHttp: Warning: 0000023418967B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-01.17.58:349][722]LogHttp: Warning: 0000023418967B80: libcurl info message cache 1 (Closing connection 116)
+[2017.10.23-01.19.58:682][ 83]LogHttp: Warning: 0000023418964D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-01.19.58:682][ 83]LogHttp: Warning: 0000023418964D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-01.19.58:682][ 83]LogHttp: Warning: 0000023418964D00: libcurl info message cache 1 (Closing connection 117)
+[2017.10.23-01.21.59:014][444]LogHttp: Warning: 0000023418965A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-01.21.59:014][444]LogHttp: Warning: 0000023418965A80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-01.21.59:014][444]LogHttp: Warning: 0000023418965A80: libcurl info message cache 1 (Closing connection 118)
+[2017.10.23-01.23.59:350][805]LogHttp: Warning: 0000023418965C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-01.23.59:351][805]LogHttp: Warning: 0000023418965C00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-01.23.59:351][805]LogHttp: Warning: 0000023418965C00: libcurl info message cache 1 (Closing connection 119)
+[2017.10.23-01.26.00:023][167]LogHttp: Warning: 0000023418965A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-01.26.00:023][167]LogHttp: Warning: 0000023418965A80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-01.26.00:023][167]LogHttp: Warning: 0000023418965A80: libcurl info message cache 1 (Closing connection 120)
+[2017.10.23-01.28.00:685][529]LogHttp: Warning: 0000023418967E80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-01.28.00:685][529]LogHttp: Warning: 0000023418967E80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-01.28.00:685][529]LogHttp: Warning: 0000023418967E80: libcurl info message cache 1 (Closing connection 121)
+[2017.10.23-01.30.01:352][891]LogHttp: Warning: 0000023418967B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-01.30.01:352][891]LogHttp: Warning: 0000023418967B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-01.30.01:352][891]LogHttp: Warning: 0000023418967B80: libcurl info message cache 1 (Closing connection 122)
+[2017.10.23-01.32.02:011][253]LogHttp: Warning: 0000023418966F80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-01.32.02:011][253]LogHttp: Warning: 0000023418966F80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-01.32.02:011][253]LogHttp: Warning: 0000023418966F80: libcurl info message cache 1 (Closing connection 123)
+[2017.10.23-01.34.02:366][614]LogHttp: Warning: 0000023418967B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-01.34.02:366][614]LogHttp: Warning: 0000023418967B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-01.34.02:366][614]LogHttp: Warning: 0000023418967B80: libcurl info message cache 1 (Closing connection 124)
+[2017.10.23-01.36.02:716][975]LogHttp: Warning: 0000023418966F80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-01.36.02:717][975]LogHttp: Warning: 0000023418966F80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-01.36.02:717][975]LogHttp: Warning: 0000023418966F80: libcurl info message cache 1 (Closing connection 125)
+[2017.10.23-01.38.03:384][337]LogHttp: Warning: 0000023418964100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-01.38.03:384][337]LogHttp: Warning: 0000023418964100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-01.38.03:384][337]LogHttp: Warning: 0000023418964100: libcurl info message cache 1 (Closing connection 126)
+[2017.10.23-01.40.03:718][698]LogHttp: Warning: 0000023418967880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-01.40.03:718][698]LogHttp: Warning: 0000023418967880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-01.40.03:718][698]LogHttp: Warning: 0000023418967880: libcurl info message cache 1 (Closing connection 127)
+[2017.10.23-01.42.04:384][ 60]LogHttp: Warning: 0000023418966E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-01.42.04:384][ 60]LogHttp: Warning: 0000023418966E00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-01.42.04:385][ 60]LogHttp: Warning: 0000023418966E00: libcurl info message cache 1 (Closing connection 128)
+[2017.10.23-01.44.04:720][421]LogHttp: Warning: 0000023418966C80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-01.44.04:720][421]LogHttp: Warning: 0000023418966C80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-01.44.04:720][421]LogHttp: Warning: 0000023418966C80: libcurl info message cache 1 (Closing connection 129)
+[2017.10.23-01.46.05:066][782]LogHttp: Warning: 0000023418967100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-01.46.05:067][782]LogHttp: Warning: 0000023418967100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-01.46.05:067][782]LogHttp: Warning: 0000023418967100: libcurl info message cache 1 (Closing connection 130)
+[2017.10.23-01.48.05:729][144]LogHttp: Warning: 0000023418967E80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-01.48.05:729][144]LogHttp: Warning: 0000023418967E80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-01.48.05:729][144]LogHttp: Warning: 0000023418967E80: libcurl info message cache 1 (Closing connection 131)
+[2017.10.23-01.50.06:395][506]LogHttp: Warning: 0000023418966C80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-01.50.06:395][506]LogHttp: Warning: 0000023418966C80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-01.50.06:395][506]LogHttp: Warning: 0000023418966C80: libcurl info message cache 1 (Closing connection 132)
+[2017.10.23-01.52.06:992][867]LogHttp: Warning: 0000023418966E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-01.52.06:992][867]LogHttp: Warning: 0000023418966E00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-01.52.06:992][867]LogHttp: Warning: 0000023418966E00: libcurl info message cache 1 (Closing connection 133)
+[2017.10.23-01.54.07:325][228]LogHttp: Warning: 0000023418967E80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-01.54.07:326][228]LogHttp: Warning: 0000023418967E80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-01.54.07:326][228]LogHttp: Warning: 0000023418967E80: libcurl info message cache 1 (Closing connection 134)
+[2017.10.23-01.56.07:662][589]LogHttp: Warning: 0000023418965780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-01.56.07:663][589]LogHttp: Warning: 0000023418965780: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-01.56.07:663][589]LogHttp: Warning: 0000023418965780: libcurl info message cache 1 (Closing connection 135)
+[2017.10.23-01.58.08:328][951]LogHttp: Warning: 0000023418966F80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-01.58.08:328][951]LogHttp: Warning: 0000023418966F80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-01.58.08:328][951]LogHttp: Warning: 0000023418966F80: libcurl info message cache 1 (Closing connection 136)
+[2017.10.23-02.00.08:662][312]LogHttp: Warning: 0000023418966C80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-02.00.08:663][312]LogHttp: Warning: 0000023418966C80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-02.00.08:663][312]LogHttp: Warning: 0000023418966C80: libcurl info message cache 1 (Closing connection 137)
+[2017.10.23-02.02.08:998][673]LogHttp: Warning: 0000023418964280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-02.02.08:998][673]LogHttp: Warning: 0000023418964280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-02.02.08:999][673]LogHttp: Warning: 0000023418964280: libcurl info message cache 1 (Closing connection 138)
+[2017.10.23-02.04.09:664][ 35]LogHttp: Warning: 0000023418965C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-02.04.09:664][ 35]LogHttp: Warning: 0000023418965C00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-02.04.09:664][ 35]LogHttp: Warning: 0000023418965C00: libcurl info message cache 1 (Closing connection 139)
+[2017.10.23-02.06.09:999][396]LogHttp: Warning: 0000023418965780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-02.06.09:999][396]LogHttp: Warning: 0000023418965780: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-02.06.09:999][396]LogHttp: Warning: 0000023418965780: libcurl info message cache 1 (Closing connection 140)
+[2017.10.23-02.08.10:331][757]LogHttp: Warning: 0000023418967880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-02.08.10:332][757]LogHttp: Warning: 0000023418967880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-02.08.10:332][757]LogHttp: Warning: 0000023418967880: libcurl info message cache 1 (Closing connection 141)
+[2017.10.23-02.10.10:666][118]LogHttp: Warning: 0000023418966C80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-02.10.10:666][118]LogHttp: Warning: 0000023418966C80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-02.10.10:666][118]LogHttp: Warning: 0000023418966C80: libcurl info message cache 1 (Closing connection 142)
+[2017.10.23-02.12.11:003][479]LogHttp: Warning: 0000023418965D80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-02.12.11:003][479]LogHttp: Warning: 0000023418965D80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-02.12.11:003][479]LogHttp: Warning: 0000023418965D80: libcurl info message cache 1 (Closing connection 143)
+[2017.10.23-02.14.11:670][841]LogHttp: Warning: 0000023418964280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-02.14.11:670][841]LogHttp: Warning: 0000023418964280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-02.14.11:670][841]LogHttp: Warning: 0000023418964280: libcurl info message cache 1 (Closing connection 144)
+[2017.10.23-02.16.12:001][202]LogHttp: Warning: 0000023418967100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-02.16.12:001][202]LogHttp: Warning: 0000023418967100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-02.16.12:001][202]LogHttp: Warning: 0000023418967100: libcurl info message cache 1 (Closing connection 145)
+[2017.10.23-02.18.12:337][563]LogHttp: Warning: 0000023418966F80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-02.18.12:337][563]LogHttp: Warning: 0000023418966F80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-02.18.12:337][563]LogHttp: Warning: 0000023418966F80: libcurl info message cache 1 (Closing connection 146)
+[2017.10.23-02.20.12:669][924]LogHttp: Warning: 0000023418967B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-02.20.12:669][924]LogHttp: Warning: 0000023418967B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-02.20.12:669][924]LogHttp: Warning: 0000023418967B80: libcurl info message cache 1 (Closing connection 147)
+[2017.10.23-02.22.13:337][286]LogHttp: Warning: 0000023418965C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-02.22.13:337][286]LogHttp: Warning: 0000023418965C00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-02.22.13:338][286]LogHttp: Warning: 0000023418965C00: libcurl info message cache 1 (Closing connection 148)
+[2017.10.23-02.24.13:672][647]LogHttp: Warning: 0000023418965A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-02.24.13:672][647]LogHttp: Warning: 0000023418965A80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-02.24.13:672][647]LogHttp: Warning: 0000023418965A80: libcurl info message cache 1 (Closing connection 149)
+[2017.10.23-02.26.14:338][  9]LogHttp: Warning: 0000023418967100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-02.26.14:338][  9]LogHttp: Warning: 0000023418967100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-02.26.14:338][  9]LogHttp: Warning: 0000023418967100: libcurl info message cache 1 (Closing connection 150)
+[2017.10.23-02.28.14:674][370]LogHttp: Warning: 0000023418965780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-02.28.14:674][370]LogHttp: Warning: 0000023418965780: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-02.28.14:675][370]LogHttp: Warning: 0000023418965780: libcurl info message cache 1 (Closing connection 151)
+[2017.10.23-02.30.15:338][732]LogHttp: Warning: 0000023418967E80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-02.30.15:339][732]LogHttp: Warning: 0000023418967E80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-02.30.15:339][732]LogHttp: Warning: 0000023418967E80: libcurl info message cache 1 (Closing connection 152)
+[2017.10.23-02.32.15:673][ 93]LogHttp: Warning: 0000023418967100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-02.32.15:674][ 93]LogHttp: Warning: 0000023418967100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-02.32.15:674][ 93]LogHttp: Warning: 0000023418967100: libcurl info message cache 1 (Closing connection 153)
+[2017.10.23-02.34.16:009][454]LogHttp: Warning: 0000023418965780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-02.34.16:009][454]LogHttp: Warning: 0000023418965780: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-02.34.16:009][454]LogHttp: Warning: 0000023418965780: libcurl info message cache 1 (Closing connection 154)
+[2017.10.23-02.36.16:348][815]LogHttp: Warning: 0000023418967580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-02.36.16:348][815]LogHttp: Warning: 0000023418967580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-02.36.16:348][815]LogHttp: Warning: 0000023418967580: libcurl info message cache 1 (Closing connection 155)
+[2017.10.23-02.57.18:487][120]LogHttp: Warning: 0000023418966E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-02.57.18:487][120]LogHttp: Warning: 0000023418966E00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-02.57.18:487][120]LogHttp: Warning: 0000023418966E00: libcurl info message cache 1 (Closing connection 156)
+[2017.10.23-03.00.02:540][809]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.23-03.00.04:904][809]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.10.23-03.00.05:056][809]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.23-03.00.05:733][809]PIE: New page: PIE session: Minimal_Default (Oct 22, 2017, 7:00:05 PM)
+[2017.10.23-03.00.05:783][809]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.10.23-03.00.07:367][809]LogPlayLevel: PIE: StaticDuplicateObject took: (1.582721s)
+[2017.10.23-03.00.07:488][809]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.10.23-03.00.08:243][809]LogPlayLevel: PIE: World Init took: (0.863394s)
+[2017.10.23-03.00.08:305][809]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (2.547349s)
+[2017.10.23-03.00.09:133][809]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.23-03.00.09:434][809]LogInit: FAudioDevice initialized.
+[2017.10.23-03.00.10:903][809]LogLoad: Game class is 'MyGame_C'
+[2017.10.23-03.00.11:749][809]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.10.22-23.00.11
+[2017.10.23-03.00.11:800][809]LogWorld: Bringing up level for play took: 0.160754
+[2017.10.23-03.00.15:689][809]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 11 classes and 0 folders.
+[2017.10.23-03.00.15:956][809]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 10.185
+[2017.10.23-03.00.15:979][809]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.10.23-03.00.29:887][462]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.10.23-03.00.30:156][462]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.10.23-03.00.43:825][603]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture10)
+[2017.10.23-03.01.11:525][886]LogEditorViewport: Clicking on Actor (LMB): CharacterBP_C (CharacterBP)
+[2017.10.23-03.01.29:225][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharacterBP" FILE="../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Content/Character/CharacterBP.uasset" SILENT=true
+[2017.10.23-03.01.29:349][570]LogSavePackage: Save=100.26ms
+[2017.10.23-03.01.29:350][570]LogSavePackage: Moving '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/CharacterBPD4B89B744B269CD32704848DF60DC1CA.tmp' to '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Content/Character/CharacterBP.uasset'
+[2017.10.23-03.01.29:375][570]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Content/Character/CharacterBP.uasset
+[2017.10.23-03.01.58:498][520]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.10.23-03.01.59:725][574]LogEditorViewport: Clicking on Actor (LMB): CharacterBP_C (CharacterBP)
+[2017.10.23-03.02.01:722][670]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.23-03.02.01:775][670]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.10.23-03.02.01:775][670]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.23-03.02.01:791][670]LogPlayLevel: [PlayLevel] Compiling CharacterBP before play...
+[2017.10.23-03.02.02:513][670]LogPlayLevel: PlayLevel: Blueprint regeneration took 738 ms (1 blueprints)
+[2017.10.23-03.02.02:514][670]PIE: New page: PIE session: Minimal_Default (Oct 22, 2017, 7:02:02 PM)
+[2017.10.23-03.02.02:514][670]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.10.23-03.02.02:526][670]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011801s)
+[2017.10.23-03.02.02:527][670]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.10.23-03.02.02:527][670]LogPlayLevel: PIE: World Init took: (0.001560s)
+[2017.10.23-03.02.02:527][670]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.013673s)
+[2017.10.23-03.02.02:598][670]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.23-03.02.02:612][670]LogInit: FAudioDevice initialized.
+[2017.10.23-03.02.02:657][670]LogLoad: Game class is 'MyGame_C'
+[2017.10.23-03.02.02:661][670]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.10.22-23.02.02
+[2017.10.23-03.02.02:661][670]LogWorld: Bringing up level for play took: 0.002715
+[2017.10.23-03.02.02:663][670]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.928
+[2017.10.23-03.02.02:663][670]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.10.23-03.02.34:139][728]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.10.23-03.02.34:237][728]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.10.23-03.06.55:139][455]LogSavePackage: Save=88.06ms
+[2017.10.23-03.06.55:139][455]LogSavePackage: Moving '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Minimal_Default5F230BC74FC077CD97252685FA78E504.tmp' to '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.10.23-03.06.55:151][455]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Content/StarterContent/Maps/Minimal_Default.umap
+[2017.10.23-03.06.55:505][455]LogSavePackage: Save=120.84ms
+[2017.10.23-03.06.55:505][455]LogSavePackage: Moving '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Minimal_Default_BuiltData82FD33FB4219A4CB51B5858DFE74E4A5.tmp' to '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2017.10.23-03.06.55:509][455]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2017.10.23-03.16.51:365][ 13]BlueprintLog: New page: Compile CharacterBP
+[2017.10.23-03.16.52:607][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharacterBP" FILE="../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Content/Character/CharacterBP.uasset" SILENT=true
+[2017.10.23-03.16.52:726][ 49]LogSavePackage: Save=101.30ms
+[2017.10.23-03.16.52:726][ 49]LogSavePackage: Moving '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/CharacterBP69CF61F04A3A8DDD14A48491DE14DC45.tmp' to '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Content/Character/CharacterBP.uasset'
+[2017.10.23-03.16.52:731][ 49]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Content/Character/CharacterBP.uasset
+[2017.10.23-03.17.17:824][284]LogSavePackage: Save=72.06ms
+[2017.10.23-03.17.17:824][284]LogSavePackage: Moving '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/UEDPCMinimal_Default018B5FA446609CFF45B680B649E8F0DA.tmp' to '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Autosaves/Game/StarterContent/Maps/UEDPCMinimal_Default.umap'
+[2017.10.23-03.17.17:828][284]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Autosaves/Game/StarterContent/Maps/UEDPCMinimal_Default.umap
+[2017.10.23-03.17.17:839][284]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.10.23-03.17.39:139][948]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2017.10.23-03.17.39:404][948]LogSavePackage: Save=65.16ms
+[2017.10.23-03.17.39:404][948]LogSavePackage: Moving '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/UEDPCMinimal_DefaultF2B0879A40F54FDBA8271A9529ADE9AA.tmp' to '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Autosaves/Game/StarterContent/Maps/UEDPCMinimal_Default.umap'
+[2017.10.23-03.17.39:424][948]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Autosaves/Game/StarterContent/Maps/UEDPCMinimal_Default.umap
+[2017.10.23-03.17.39:430][948]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.10.23-03.18.07:933][495]LogSavePackage: Save=71.91ms
+[2017.10.23-03.18.07:934][495]LogSavePackage: Moving '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Minimal_Default_Auto390F5FB0D4CCD479EEF2EF3A4C272E7DC.tmp' to '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap'
+[2017.10.23-03.18.07:936][495]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap
+[2017.10.23-03.18.07:939][495]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.173
+[2017.10.23-03.18.07:939][495]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.173
+[2017.10.23-03.19.45:152][187]LogTemp: Repeating last play command: Mobile Preview ES2 (PIE)
+[2017.10.23-03.19.45:708][187]LogSavePackage: Save=126.90ms
+[2017.10.23-03.19.45:708][187]LogSavePackage: Moving '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/UEDPCMinimal_Default32A0EC964EF9ED83E3AE8A9AD4156D04.tmp' to '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Autosaves/Game/StarterContent/Maps/UEDPCMinimal_Default.umap'
+[2017.10.23-03.19.45:716][187]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Autosaves/Game/StarterContent/Maps/UEDPCMinimal_Default.umap
+[2017.10.23-03.19.45:732][187]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.10.23-03.28.08:747][385]LogSavePackage: Save=101.59ms
+[2017.10.23-03.28.08:747][385]LogSavePackage: Moving '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Minimal_Default_Auto40F0F78BF44355550DF8392A30230E088.tmp' to '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto4.umap'
+[2017.10.23-03.28.08:750][385]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto4.umap
+[2017.10.23-03.28.08:753][385]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.287
+[2017.10.23-03.28.08:754][385]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.287
+[2017.10.23-03.38.45:123][678]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.10.23-03.39.00:760][273]LogSavePackage: Save=29.63ms
+[2017.10.23-03.39.00:760][273]LogSavePackage: Moving '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/PunchingMontage7EDEBC4941D9A2DD62A0FD8A67D5EE7F.tmp' to '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Content/Character/Animations/PunchingMontage.uasset'
+[2017.10.23-03.39.00:766][273]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Content/Character/Animations/PunchingMontage.uasset
+[2017.10.23-03.39.02:347][307]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2017.10.23-03.39.03:061][307]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.10.23-03.39.03:728][307]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.10.23-03.39.05:241][307]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0008 seconds. Added 1 classes and 0 folders.
+[2017.10.23-03.39.05:354][307]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.23-03.39.45:617][554]LogSavePackage: Save=73.44ms
+[2017.10.23-03.39.45:617][554]LogSavePackage: Moving '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Minimal_Default_Auto5C1C5984E44C41780C7F42A90FB33F647.tmp' to '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto5.umap'
+[2017.10.23-03.39.45:622][554]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto5.umap
+[2017.10.23-03.39.45:626][554]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.233
+[2017.10.23-03.39.45:626][554]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.233
+[2017.10.23-04.19.01:755][764]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.197
+[2017.10.23-04.19.01:759][764]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Character/SK_Mannequin_Skeleton] ([1] browsable assets)...
+[2017.10.23-04.19.01:759][764]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/SK_Mannequin_Skeleton]
+[2017.10.23-04.19.01:896][764]LogSavePackage: Save=120.33ms
+[2017.10.23-04.19.01:896][764]LogSavePackage: Moving '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/SK_Mannequin_Skeleton_Auto65853245E43DFCA775E72C2951DB762F3.tmp' to '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Autosaves/Game/Character/SK_Mannequin_Skeleton_Auto6.uasset'
+[2017.10.23-04.19.02:323][764]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Autosaves/Game/Character/SK_Mannequin_Skeleton_Auto6.uasset
+[2017.10.23-04.19.02:323][764]LogFileHelpers: Auto-saving content packages took 0.567
+[2017.10.23-04.30.28:895][309]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.096
+[2017.10.23-04.30.28:930][309]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/Animations/PunchingMontage] ([1] browsable assets)...
+[2017.10.23-04.30.28:977][309]OBJ SavePackage:     Rendered thumbnail for [AnimMontage /Game/Character/Animations/PunchingMontage.PunchingMontage]
+[2017.10.23-04.30.28:977][309]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/Animations/PunchingMontage]
+[2017.10.23-04.30.29:026][309]LogSavePackage: Save=24.70ms
+[2017.10.23-04.30.29:026][309]LogSavePackage: Moving '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/PunchingMontage_Auto727EAF1834F4C2BE3DC02BC8071E456F2.tmp' to '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Autosaves/Game/Character/Animations/PunchingMontage_Auto7.uasset'
+[2017.10.23-04.30.29:038][309]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Autosaves/Game/Character/Animations/PunchingMontage_Auto7.uasset
+[2017.10.23-04.30.29:038][309]LogFileHelpers: Auto-saving content packages took 0.139
+[2017.10.23-04.42.24:891][858]LogSavePackage: Save=192.59ms
+[2017.10.23-04.42.24:891][858]LogSavePackage: Moving '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/SK_Mannequin_Skeleton9B091C034A71A07FCD14E39F92D35929.tmp' to '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Content/Character/SK_Mannequin_Skeleton.uasset'
+[2017.10.23-04.42.24:926][858]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Content/Character/SK_Mannequin_Skeleton.uasset
+[2017.10.23-04.42.25:699][871]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.037
+[2017.10.23-04.42.25:704][871]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/Animations/PunchingMontage] ([1] browsable assets)...
+[2017.10.23-04.42.25:735][871]OBJ SavePackage:     Rendered thumbnail for [AnimMontage /Game/Character/Animations/PunchingMontage.PunchingMontage]
+[2017.10.23-04.42.25:735][871]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/Animations/PunchingMontage]
+[2017.10.23-04.42.25:796][871]LogSavePackage: Save=33.32ms
+[2017.10.23-04.42.25:796][871]LogSavePackage: Moving '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/PunchingMontage_Auto811F03EA246BC171857F146BE6EBBF9D3.tmp' to '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Autosaves/Game/Character/Animations/PunchingMontage_Auto8.uasset'
+[2017.10.23-04.42.25:798][871]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Autosaves/Game/Character/Animations/PunchingMontage_Auto8.uasset
+[2017.10.23-04.42.25:798][871]LogFileHelpers: Auto-saving content packages took 0.098
+[2017.10.23-04.42.41:808][ 30]LogSavePackage: Save=21.07ms
+[2017.10.23-04.42.41:808][ 30]LogSavePackage: Moving '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/PunchingMontage4FE27E5542799EC126D2C1A0B196B1F4.tmp' to '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Content/Character/Animations/PunchingMontage.uasset'
+[2017.10.23-04.42.41:843][ 30]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Content/Character/Animations/PunchingMontage.uasset
+[2017.10.23-04.54.22:431][346]LogSavePackage: Save=22.90ms
+[2017.10.23-04.54.22:431][346]LogSavePackage: Moving '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/PunchingMontage0811D485480F8CE9EA38F5BD83B8A25C.tmp' to '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Content/Character/Animations/PunchingMontage.uasset'
+[2017.10.23-04.54.22:441][346]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Content/Character/Animations/PunchingMontage.uasset
+[2017.10.23-04.55.59:986][815]LogSavePackage: Save=20.74ms
+[2017.10.23-04.55.59:986][815]LogSavePackage: Moving '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/PunchingMontage968DFBEA4C6D8A85056FF7BE907109AF.tmp' to '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Content/Character/Animations/PunchingMontage.uasset'
+[2017.10.23-04.55.59:992][815]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Content/Character/Animations/PunchingMontage.uasset
+[2017.10.23-04.56.43:973][129]LogSavePackage: Save=20.68ms
+[2017.10.23-04.56.43:973][129]LogSavePackage: Moving '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/PunchingMontage740A46F34423713146ECF0B875512B14.tmp' to '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Content/Character/Animations/PunchingMontage.uasset'
+[2017.10.23-04.56.43:980][129]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Content/Character/Animations/PunchingMontage.uasset
+[2017.10.23-04.57.16:409][661]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.047
+[2017.10.23-04.57.16:411][661]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Character/SK_Mannequin_Skeleton] ([1] browsable assets)...
+[2017.10.23-04.57.16:411][661]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/SK_Mannequin_Skeleton]
+[2017.10.23-04.57.16:443][661]LogSavePackage: Save=8.17ms
+[2017.10.23-04.57.16:443][661]LogSavePackage: Moving '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/SK_Mannequin_Skeleton_Auto93FA75B8A44674F755A95EC8196AA5055.tmp' to '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Autosaves/Game/Character/SK_Mannequin_Skeleton_Auto9.uasset'
+[2017.10.23-04.57.16:445][661]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Autosaves/Game/Character/SK_Mannequin_Skeleton_Auto9.uasset
+[2017.10.23-04.57.16:445][661]LogFileHelpers: Auto-saving content packages took 0.035
+[2017.10.23-04.58.00:641][822]LogSavePackage: Save=18.15ms
+[2017.10.23-04.58.00:641][822]LogSavePackage: Moving '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/PunchingMontage8CE095014BE936D0A527F8941972161D.tmp' to '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Content/Character/Animations/PunchingMontage.uasset'
+[2017.10.23-04.58.00:645][822]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Content/Character/Animations/PunchingMontage.uasset
+[2017.10.23-05.00.33:273][765]LogEditorTransaction: Undo Add Node
+[2017.10.23-05.01.00:027][492]BlueprintLog: New page: Compile CharacterBP
+[2017.10.23-05.01.02:073][533]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharacterBP" FILE="../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Content/Character/CharacterBP.uasset" SILENT=true
+[2017.10.23-05.01.02:473][533]LogSavePackage: Save=107.12ms
+[2017.10.23-05.01.02:473][533]LogSavePackage: Moving '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/CharacterBP29A4DA1C4C527A07A7B7E1AEB980BF53.tmp' to '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Content/Character/CharacterBP.uasset'
+[2017.10.23-05.01.02:480][533]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Content/Character/CharacterBP.uasset
+[2017.10.23-05.01.14:146][170]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.10.23-05.01.14:146][170]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.23-05.01.14:147][170]PIE: New page: PIE session: Minimal_Default (Oct 22, 2017, 9:01:14 PM)
+[2017.10.23-05.01.14:147][170]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.10.23-05.01.14:274][170]LogPlayLevel: PIE: StaticDuplicateObject took: (0.126544s)
+[2017.10.23-05.01.14:275][170]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.10.23-05.01.14:275][170]LogPlayLevel: PIE: World Init took: (0.001780s)
+[2017.10.23-05.01.14:276][170]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.128759s)
+[2017.10.23-05.01.14:320][170]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.23-05.01.14:331][170]LogInit: FAudioDevice initialized.
+[2017.10.23-05.01.14:374][170]LogLoad: Game class is 'MyGame_C'
+[2017.10.23-05.01.14:378][170]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.10.23-01.01.14
+[2017.10.23-05.01.14:378][170]LogWorld: Bringing up level for play took: 0.002569
+[2017.10.23-05.01.14:397][170]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.662
+[2017.10.23-05.01.14:397][170]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.10.23-05.01.20:473][634]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.10.23-05.01.20:524][634]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.10.23-05.01.20:679][635]Cmd: SELECT NONE
+[2017.10.23-05.01.53:950][696]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.Actor_1.DebugSkelMeshComponent_8) Already registered. Aborting.
+[2017.10.23-05.01.54:876][696]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_17:PersistentLevel.Actor_1.DebugSkelMeshComponent_8) - call TermArticulated first.
+[2017.10.23-05.01.55:953][696]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.23-05.07.23:965][683]LogSavePackage: Save=129.38ms
+[2017.10.23-05.07.23:965][683]LogSavePackage: Moving '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Minimal_Default_Auto020AE9C76484DE5DCFF77A8AD084A1F42.tmp' to '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto0.umap'
+[2017.10.23-05.07.23:967][683]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto0.umap
+[2017.10.23-05.07.23:990][683]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.452
+[2017.10.23-05.07.23:990][683]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.452
+[2017.10.23-05.07.23:995][683]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/CharacterAnimBluePrint] ([1] browsable assets)...
+[2017.10.23-05.07.24:042][683]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Character/CharacterAnimBluePrint.CharacterAnimBluePrint]
+[2017.10.23-05.07.24:042][683]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/CharacterAnimBluePrint]
+[2017.10.23-05.07.24:332][683]LogSavePackage: Save=251.44ms
+[2017.10.23-05.07.24:332][683]LogSavePackage: Moving '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/CharacterAnimBluePrint_Auto091261EC646730970B5C60A96F0BA6585.tmp' to '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Autosaves/Game/Character/CharacterAnimBluePrint_Auto0.uasset'
+[2017.10.23-05.07.24:345][683]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/Autosaves/Game/Character/CharacterAnimBluePrint_Auto0.uasset
+[2017.10.23-05.07.24:345][683]LogFileHelpers: Auto-saving content packages took 0.353
+[2017.10.23-05.10.22:582][282]LogSavePackage: Save=266.44ms
+[2017.10.23-05.10.22:582][282]LogSavePackage: Moving '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Saved/CharacterAnimBluePrintF6146A4C43F1B458B572A98DA3A2588C.tmp' to '../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Content/Character/CharacterAnimBluePrint.uasset'
+[2017.10.23-05.10.22:601][282]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/dueli/Documents/Unreal Projects/ThirdPersonProject/Content/Character/CharacterAnimBluePrint.uasset
+[2017.10.23-05.10.22:907][299]BlueprintLog: New page: Compile CharacterAnimBluePrint
+[2017.10.23-05.10.29:386][651]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_2.DebugSkelMeshComponent_10) Already registered. Aborting.
+[2017.10.23-05.10.29:485][651]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_19:PersistentLevel.Actor_2.DebugSkelMeshComponent_10) - call TermArticulated first.
+[2017.10.23-05.13.25:202][127]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2017.10.23-05.13.37:686][165]LogHttp: Warning: 000002345D8A9000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-05.13.37:686][165]LogHttp: Warning: 000002345D8A9000: libcurl info message cache 0 (Connection 203 seems to be dead!)
+[2017.10.23-05.13.37:686][165]LogHttp: Warning: 000002345D8A9000: libcurl info message cache 1 (Closing connection 203)
+[2017.10.23-05.13.37:686][165]LogHttp: Warning: 000002345D8A9000: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.10.23-05.13.37:686][165]LogHttp: Warning: 000002345D8A9000: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-05.13.37:686][165]LogHttp: Warning: 000002345D8A9000: libcurl info message cache 4 (Closing connection 204)
+[2017.10.23-08.14.43:125][350]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2017.10.23-15.33.57:741][415]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2017.10.23-15.34.01:414][427]LogHttp: Warning: 0000023451BD3100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-15.34.01:414][427]LogHttp: Warning: 0000023451BD3100: libcurl info message cache 0 (Connection 205 seems to be dead!)
+[2017.10.23-15.34.01:414][427]LogHttp: Warning: 0000023451BD3100: libcurl info message cache 1 (Closing connection 205)
+[2017.10.23-15.34.01:414][427]LogHttp: Warning: 0000023451BD3100: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-15.34.01:414][427]LogHttp: Warning: 0000023451BD3100: libcurl info message cache 3 (Closing connection 206)
+[2017.10.23-16.43.45:238][  4]LogHttp: Warning: 0000023451C9C100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-16.43.45:239][  4]LogHttp: Warning: 0000023451C9C100: libcurl info message cache 0 (Connection 216 seems to be dead!)
+[2017.10.23-16.43.45:239][  4]LogHttp: Warning: 0000023451C9C100: libcurl info message cache 1 (Closing connection 216)
+[2017.10.23-16.43.45:239][  4]LogHttp: Warning: 0000023451C9C100: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.10.23-16.43.45:239][  4]LogHttp: Warning: 0000023451C9C100: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-16.43.45:240][  4]LogHttp: Warning: 0000023451C9C100: libcurl info message cache 4 (Closing connection 217)
+[2017.10.23-16.45.45:896][366]LogHttp: Warning: 0000023451C9F700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-16.45.45:896][366]LogHttp: Warning: 0000023451C9F700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-16.45.45:896][366]LogHttp: Warning: 0000023451C9F700: libcurl info message cache 1 (Closing connection 218)
+[2017.10.23-16.47.46:568][728]LogHttp: Warning: 0000023451C9C580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.10.23-16.47.46:569][728]LogHttp: Warning: 0000023451C9C580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.10.23-16.47.46:569][728]LogHttp: Warning: 0000023451C9C580: libcurl info message cache 1 (Closing connection 219)
+[2017.10.23-17.39.04:846][ 30]LogD3D11RHI: Error: Result failed 
+ at D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Query.cpp:134 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DEVICE_REMOVED
+[2017.10.23-17.39.05:057][ 30]LogWindows: Windows GetLastError: The operation completed successfully. (0)
